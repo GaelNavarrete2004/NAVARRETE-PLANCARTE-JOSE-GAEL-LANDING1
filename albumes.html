@@ -1,0 +1,250 @@
+<!-- Programa creado por José Gael Navarrete Plancarte con ayuda de un template sacado de boostrap, hecho con HTML Y CSS -->
+  <!-- PARTE DE HTML -->
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <!-- Bootstrap CSS y JS -->
+    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Metadatos y título -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gaelote Plancarte">
+    <title>Álbumes que definen quien soy</title>
+
+    <!-- Enlaces a CSS -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
+
+    
+
+   <!---- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">-->
+
+<link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+<head>
+  <!-- Enlace a CSS personalizado -->
+  <link rel="stylesheet" type="text/css" href="musica.css">
+</head>
+
+<meta name="theme-color" content="#712cf9">
+<link href="musica.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+  
+   
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md bg-everlong-color sticky-top border-bottom" data-bs-theme="dark">
+  <!-- Contenedor -->
+  <div class="container">
+    <!-- Marca de la barra de navegación -->
+    <a class="navbar-brand d-md-none" href="#">
+      <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
+      Aperture
+    </a>
+    <!-- Botón para mostrar el menú lateral -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Menú lateral -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">Aperture</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <!-- Lista de elementos del menú -->
+        <ul class="navbar-nav flex-grow-1 justify-content-between">
+          <li class="nav-item"><a class="nav-link" href="#">
+            <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
+          </a></li>
+          <li class="nav-item"><a class="nav-link header-text" href="#TITLE"><b>Home</b></a></li>
+          <li class="nav-item"><a class="nav-link header-text" href="#ALBUMS"><b>Album's</b></a></li>
+          <li class="nav-item"><a class="nav-link header-text" href="#INFO"><b>About</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="#">
+          <button id="toggle-theme" class="theme-toggle-btn">🌙</button>
+            <svg class="bi" width="24" height="24"><use xlink:href="#cart"/></svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!----INICIO DE TODO EL DISEÑO DE ABAJO-->
+<!-- Contenido principal -->
+<main>
+  <!-- Sección del título -->
+  <section id="TITLE" class="TITLE"> <!---TITULO DE LA PÁGINA-->
+    <!-- Contenedor -->
+    <div class="col-md-6 p-lg-5 mx-auto my-5">
+      <h1 class="display-3 fw-bold">Álbumes que me definen</h1>
+      <!-- Contenido adicional -->
+      <div class="d-flex gap-3 justify-content-center lead fw-normal" style="margin-top: 25px; text-align: center;">
+        <img src="media/whitepony.gif" alt="GIF" style="width: 350px; margin: 0 auto;">
+      </div>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+   </section>
+
+
+  <!-- Sección de los álbumes -->
+  <section id="ALBUMS" class="TITLE">
+    <!-- Contenido de la sección de los álbumes -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="bg-custom me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="blue-ones">Saturday Night Wrist</h2>
+          <p class="blue-ones">METAL ALTERNATIVO & ROCK ALTERNATIVO</p>
+          <h3 class="blue-ones">Deftones</h3>
+        </div>
+        <a href="https://open.spotify.com/album/4o1KnoVpzXZceJxyjELEQB" target="_blank">
+        <div class="bg-body-tertiary shadow-sm mx-auto saturday-night">
+        </div>
+      </a>
+      </div>
+   
+    
+
+    <div class="bg-custom2 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden mx-auto">
+      <div class="bg-custom2 my-3 p-3">
+        <h2 class="igortext">IGOR </h2>
+        <p class="igortext">R&B & HIP HOP</p>
+        <h3 class="igortext">Tyler, The Creator</h3>
+      </div>
+      <a href="https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE" target="_blank">
+      <div class="bg-dark shadow-sm mx-auto igor"></div>
+    </a>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-custom2 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="colornshape">The Colour and the Shape</h2>
+        <p class="colornshape">ROCK ALTERNATIVO & GRUNGE</p>
+        <h3 class="colornshape">FOO FIGHTERS</h3>
+      </div>
+      <a href="https://open.spotify.com/track/4ZnD7qmpP3NWA1ctUzeUIw" target="_blank">
+      <div class="bg-body-tertiary shadow-sm mx-auto everlong"></div>
+    </a>
+    </div>
+
+    <div class="bg-custom me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden mx-auto">
+      <div class="bg-custom my-3 p-3">
+        <h2 class="blue-ones">Awkward Pop Songs</h2>
+        <p class="blue-ones">PUNK & INDIE</p>
+        <h3 class="blue-ones">JANK</h3>
+      </div>
+      <a href="https://open.spotify.com/album/4D4dcTmdT76AvARFcvWXwn" target="_blank">
+      <div class="bg-dark shadow-sm mx-auto jank"></div>
+    </a>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-custom me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="blue-ones">BALLADS 1</h2>
+        <p class="blue-ones">POP & R&B CONTEMPORÁNEO</p>
+        <h3 class="blue-ones">JOJI</h3>
+      </div>
+      <a href="https://open.spotify.com/album/5mIImcsuqpiSXg8XvFr81I" target="_blank">
+      <div class="bg-body-tertiary shadow-sm mx-auto ballads1"></div>
+    </a>
+    </div>
+
+    <div class="bg-custom2 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden mx-auto">
+      <div class="bg-custom2 my-3 p-3">
+        <h2 class="lastdinos">IN A MILLION YEARS</h2>
+        <p class="lastdinos">INDIE ROCK & DANCE PUNK</p>
+        <h3 class="lastdinos">LAST DINOSAURS</h3>
+      </div>
+      <a href="https://open.spotify.com/album/1XkGORuUX2QGOEIL4EbJKm" target="_blank">
+      <div class="bg-dark shadow-sm mx-auto dinos"></div>
+    </a>
+    </div>
+  </div>
+
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-custom2 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="nightmare">Favourite Worst Nightmare</h2>
+        <p class="nightmare">INDIE ROCK & ROCK ALTERNATIVO</p>
+        <h3 class="nightmare">ARCTIC MONKEYS</h3>
+      </div>
+      <a href="https://open.spotify.com/album/1XkGORuUX2QGOEIL4EbJKm" target="_blank">
+      <div class="bg-body-tertiary shadow-sm mx-auto am"></div>
+    </a>
+    </div>
+
+    <div class="bg-custom me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden mx-auto">
+      <div class="bg-custom my-3 p-3">
+        <h2 class="blue-ones">THREE CHEERS FOR SWEET REVENGE</h2>
+        <p class="blue-ones">EMO & ROCK ALTERNATIVO</p>
+        <h3 class="blue-ones">MY CHEMICAL ROMANCE</h3>
+      </div>
+      <a href="https://open.spotify.com/album/3DuiGV3J09SUhvp8gqNx8h" target="_blank">
+      <div class="bg-dark shadow-sm mx-auto mcr"></div>
+  </a>
+  </div>
+
+
+  </section>
+  
+  
+</main>
+
+
+ <!-- Sección de información (footer) -->
+<section id="INFO">
+  <!-- Contenido de la sección de información (footer) -->
+  <footer>
+    <div id=INFO class="info-about">
+        <div class="design-about">
+            <ul>
+                <h4>ABOUT</h4>
+                <a href="https://open.spotify.com/" target="_blank">Spotify</a><br><br>
+                <a href="https://tidal.com/browse/artist/24034301" target="_blank">Tidal</a><br><br>
+                <a href="https://music.apple.com/mx/browse" target="_blank">Apple Music</a><br><br>
+                <a href="https://music.amazon.com.mx/" target="_blank">Amazon Music</a><br><br>
+                <a href="https://music.youtube.com/" target="_blank">YouTube Music</a><br><br>
+                <a href="https://www.deezer.com/es/offers" target="_blank">Deezer</a><br><br>
+            </ul>
+        </div>
+
+        <div class="design-about">
+            <ul>
+                <h4>LEGAL</h4><br>
+                <a href="https://www.spotify.com/mx/legal/end-user-agreement/" target="_blank">Terms & Conditions</a><br><br>
+                <a href="https://www.spotify.com/mx/legal/privacy-policy/" target="_blank">Privacy Notice</a><br><br><br><br><br><br><br><br><br>
+                <a>Page done by José Gael Navarrete Plancarte</a> 
+            </ul>
+        </div>
+        <div class="design-about">
+            <ul>
+                <h4>CONTACT</h4><br>
+                <a href="https://www.instagram.com/gael_iscool/" target="_blank">Instagram</a><br><br>
+                <a href="https://twitter.com/gael_iscool" target="_blank">Twitter</a><br><br>
+                <a href="https://www.youtube.com/channel/UCNu4kTtaY3tRci3ro2MQ00A" target="_blank">YouTube</a><br><br>               
+            </ul>
+        </div>
+    </div>
+</footer>
+ <!-- Script de Bootstrap -->
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</section>
+    <script src="java.js"></script>
+    </body>
+</html>
